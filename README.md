@@ -15,8 +15,9 @@ Made for my own radio stations, but can be used/configured for others (It's in t
 
 ## Environment Variables
 
-| Variable                                 | Description                                    | Example                    |
-| ---------------------------------------- | ---------------------------------------------- | -------------------------- |
-| SERVICE_NAME                             | Sets what the radio station/service is called. | WPBB PicelBoi Broadcasting |
-| ICECAST_SERVER                           | Sets the Icecast server to be used.            | icecast.picelboi.xyz       |
-| LIBRETIME\__INSERT MOUNTPOINT HERE_\_API | Sets the Libretime API link.                   | wpbb-radio-1.picelboi.xyz  |
+| Variable                                 | Description                                        | Example                                                                   |
+| ---------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------- |
+| SERVICE_NAME                             | Sets what the radio station/service is called.     | WPBB PicelBoi Broadcasting                                                |
+| SERVICE_DESCRIPTION                      | Sets what the radio station/service's description. | WPBB PicelBoi Broadcasting is a radio station hosted by PicelBoi for fun. |
+| ICECAST_SERVER                           | Sets the Icecast server to be used.                | icecast.picelboi.xyz                                                      |
+| LIBRETIME\__INSERT MOUNTPOINT HERE_\_API | Sets the Libretime API link.                       | wpbb-radio-1.picelboi.xyz                                                 |
